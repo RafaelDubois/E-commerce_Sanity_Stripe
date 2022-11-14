@@ -1,6 +1,6 @@
-import PageLoader from 'next/dist/client/page-loader'
+import PageLoader from 'next/dist/client/page-loader';
 import Link from 'next/link';
-import React from 'react'
+import React from 'react';
 import { BsBagXFill } from 'react-icons/bs';
 
 const Canceled = () => {

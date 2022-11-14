@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import React, {useState, useEffect} from 'react'
+import Link from 'next/link';
+import React, {useState, useEffect} from 'react';
 import {BsBagCheckFill, BsBagXFill} from 'react-icons/bs';
 
 import { useStateContext } from '../context/StateContext';
@@ -37,6 +37,6 @@ const Success = () => {
         </div>
     </div>
   )
-}
+};
 
-export default Success
+export default Success;

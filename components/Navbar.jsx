@@ -1,8 +1,8 @@
-import Link from 'next/link'
-import React from 'react'
-import { AiOutlineShopping } from 'react-icons/ai'
-import { useStateContext } from '../context/StateContext'
-import { Cart }from './'
+import Link from 'next/link';
+import React from 'react';
+import { AiOutlineShopping } from 'react-icons/ai';
+import { useStateContext } from '../context/StateContext';
+import { Cart }from './';
 
 const Navbar = () => {
   const { showCart, setShowCart, totalQuantities } = useStateContext();
@@ -22,6 +22,6 @@ const Navbar = () => {
         {showCart && <Cart />}
     </div>
   )
-}
+};
 
-export default Navbar
+export default Navbar;

@@ -104,7 +104,7 @@ const handleBuyNow = () => {
         </div>
     </div>
   )
-}
+};
 export const getStaticPaths = async () => {
   const query = `*[_type == "product"] {
     slug {
@@ -125,7 +125,7 @@ export const getStaticPaths = async () => {
     paths,
     fallback: 'blocking'
   }
-}
+};
 
 export const getStaticProps = async ({ params: { slug }}) => {
   const query = `*[_type == "product" && slug.current == '${slug}'][0]`;
@@ -139,6 +139,6 @@ export const getStaticProps = async ({ params: { slug }}) => {
   return {
     props: { products, product }
   }
-}
+};
 
-export default ProductDetails
+export default ProductDetails;

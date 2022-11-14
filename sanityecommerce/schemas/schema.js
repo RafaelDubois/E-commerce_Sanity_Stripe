@@ -10,4 +10,4 @@ export default createSchema({
     /* Your types here! */
     product, banner
   ]),
-})
+});

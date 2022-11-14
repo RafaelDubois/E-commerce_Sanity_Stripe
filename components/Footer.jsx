@@ -1,5 +1,5 @@
-import React from 'react'
-import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai'
+import React from 'react';
+import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai';
 
 
 const Footer = () => {
@@ -12,6 +12,6 @@ const Footer = () => {
         </p>
     </div>
   )
-}
+};
 
-export default Footer
+export default Footer;

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-import { urlFor } from '../lib/client'
+import { urlFor } from '../lib/client';
 
 const HeroBanner = ( {heroBanner} ) => {
   return (
@@ -23,6 +23,6 @@ const HeroBanner = ( {heroBanner} ) => {
       </div>
     </div>
   )
-}
+};
 
-export default HeroBanner
+export default HeroBanner;
